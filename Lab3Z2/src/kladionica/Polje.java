@@ -89,6 +89,8 @@ public class Polje extends Canvas {
 		FontMetrics metrics = g.getFontMetrics(f);
 		int x = (this.width - metrics.stringWidth(Integer.toString(this.getLabel()))) / 2;
 		int y =((this.height - metrics.getHeight()) / 2) + metrics.getAscent();
+		//System.out.println(x);
+		//System.out.println(y);
 		g.drawString(Integer.toString(this.getLabel()), x, y);  
 		}
 	}

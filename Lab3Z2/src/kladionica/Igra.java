@@ -98,6 +98,7 @@ public class Igra extends Frame{
 			if(set.contains(t)) {
 				statusBar.setBackground(Color.GREEN);
 				randomNumber.setBackground(Color.GREEN);
+				updateBalans("-" + textfield.getText());
 				updateBalans(dobitak.getText());
 			}else {
 				statusBar.setBackground(Color.RED);
